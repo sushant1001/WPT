@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+html{
+
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+
+    width: 100%;
+    background-color: #0f171e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 65px;
+}
+
+header .logo{
+    width: 105px;
+
+}
+
+header .logo img{
+    width: 100%;   
+}
+.header_right{
+    display:flex ;
+    align-items: center;
+}
+
+.header_right .language{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    font-size: 15px;
+}
+
+.header_right .language i{
+    color: #fff;
+}
+
+.header_right .language span {
+    color: #fff;
+    padding-left: 8px;
+}
+
+header_right .language i{
+    color: #aeabab;
+    font-size: 16px;
+}
+.header_right a{
+    color: #fff;
+
+}
+
+
+
+.banner{
+    width: 100%;
+    height: 70vh;
+    align-items: stretch;
+    background-image: linear-gradient(to right,black 40%, transparent 58%),url('MLP.jpg');
+    background-size: cover;
+    background-position: right top;
+    background-repeat:no-repeat ;
+    
+}
+
+.banner .banner_txt{
+    width: 44%;
+    color: #fff;
+    padding-left: 80px;
+    padding-top: 35px;
+
+}
+
+.banner .banner_txt h1{
+    font-size: 44.8px;
+    padding-bottom: 15px;
+
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.banner .banner_txt p{
+    font-size: 20px;
+    color: #e6e3e3;
+    padding-bottom: 49px;
+
+}
+
+.banner .banner_txt button{
+    background-color: #0F79AF;
+    display: block;
+    color: #fff;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 17px;
+    width: 56%;
+    cursor: pointer;
+    border: none;
+}
+
+.banner .banner_txt .or{
+    display: block;
+    position: relative;
+    width: 56%;
+    text-align: center;
+    color: #d6d2d2 ;
+    margin: 15px 0;
+}
+
+.banner .banner_txt .or::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 45%;
+    height: 1px;
+    background-color: #fff;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+
+.banner .banner_txt .or::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 45%;
+    height: 1px;
+    background-color: #fff;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.banner .banner_txt .membership{
+    margin-top: 40px;
+    display: block;
+}
+
+
+.facility{
+    display: flex;
+    align-items: center;
+    padding: 15px 100px;
+
+
+}
+
+.facility .items{
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+
+}
+
+.facility .items .img{
+    width: 100%;
+    padding: 10px;
+}
+
+.facility .items .img img{
+    width: 100%;
+
+}
+
+.facility .items h3{
+    font-size: 32px;
+    color: #333;
+}
+
+.facility .items p{
+    color: #333;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+
+
+footer{
+    width: 100%;
+    background-color: #222222;
+    padding: 25px 0;
+
+
+}
+
+.footer{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.footer a{
+    color: #0F79AF;
+    font-size: 14px;
+    padding: 0 6px;
+
+}
+
+.footer small{
+    display: block;
+    color: gray;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
